@@ -1,6 +1,6 @@
 const ENGLISH = {
     'dog':'chó',
-    'cat':'meof',
+    'cat':'mèo',
     'shark':'cas maajp',
     'banana':'chuoois',
     'apple':'taos',
