@@ -110,3 +110,20 @@ function nextCard(){
 btnPrev.addEventListener('click', prevCard);
 btnNext.addEventListener('click', nextCard);
 //Task 4: keybroad events - navigation
+/**
+ * 
+ * @param {KeyboardEvent} event 
+ */
+function onKeyUp(event) {
+    switch(event.key){
+        case 'ArrowLeft':
+            prevCard();
+            break;
+        case 'ArrowRight':
+            nextCard();
+            break;
+    }
+    console.log(event.key);
+}
+
+document.addEventListener('keydown', onKeyUp);
