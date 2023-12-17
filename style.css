@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(2, 80, 2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+
+    width: 100vw; /*viewpoint width*/
+    height: 100vh;/*viewpoint height*/
+    margin: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flashcard-box{
+    padding: 25px;
+}
+
+.flashcard {
+    height: 300px;
+    width: 275px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 8px;
+
+    font-size: 2.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+}
+
+.word {
+    background-color: rgb(4, 4, 221);
+    color: white;
+    box-shadow: 0 8px red;
+}
+
+.definition {
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px rgb(233, 156, 12);
+}
+.hidden {
+    display: none !important;
+}
